@@ -1,12 +1,28 @@
-# Getting started
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-## Tools
+- [Smartly.io challenges | Junction Hackathlon 2016](#smartlyio-challenges--junction-hackathlon-2016)
+  - [Tools of the trade](#tools-of-the-trade)
+    - [Anaconda](#anaconda)
+    - [Pandas](#pandas)
+    - [scikit-learn](#scikit-learn)
+    - [SentiWordNet](#sentiwordnet)
+  - [Data sets](#data-sets)
+    - [Hatebase](#hatebase)
+    - [Trump tweets](#trump-tweets)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# Smartly.io challenges | Junction Hackathlon 2016
+
+## Tools of the trade
 
 ### Anaconda
 
-If you plan to do data science with Python (which is a good idea), we recommend using Anaconda. Anaconda is a popular data science platform for Python and will make you happier.
+If you plan to do data science with Python (which is a good idea), we recommend using Anaconda. Anaconda is a very handy data science platform for Python and will make you happier.
 
-To install Anaconda follow the instruction [here](https://www.continuum.io/downloads). After the installation is complete create a new environment called `junction` with some relevant packages (you can add more packages later):
+First install Anaconda from [here](https://www.continuum.io/downloads). After the installation is complete create a new environment called `junction` with some relevant packages (you can add more packages later):
 
 ```
 conda create --name junction python=3.5 ipykernel pandas scikit-learn nltk
@@ -30,6 +46,9 @@ jupyter notebook
 
 Pandas is a Python module for handling tabular data (rows and columns, think of Excel).
 
+Here are some useful places to start:
+[10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+[Pandas cheat sheet](http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf)
 
 ### scikit-learn
 
@@ -40,7 +59,7 @@ More information from [Scikit-learn documentation](http://scikit-learn.org/stabl
 
 ### SentiWordNet
 
-SentiWordNet is a word corpus with positive/negative sentiments. The easiest way to use SentiWordNet with Python is to download it with `nltk`, Natural Language Toolkit (if you plan on doing natural language processing, NTLK should prove useful in other ways too).
+SentiWordNet is a word corpus with positive/negative sentiments. The easiest way to use SentiWordNet with Python is to download it with `nltk`, Natural Language Toolkit (and if you plan to do natural language processing, NTLK should prove useful in other ways too).
 
 ```
 import nltk
@@ -64,7 +83,7 @@ Here are some examples on how to classify tweets with `nltk`:
 [NLTK How-to - Sentiment Analysis](http://www.nltk.org/howto/sentiment.html)
 [Twitter sentiment analysis using Python and NLTK](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
-## Data
+## Data sets
 
 To get around API limitations and avoid excess load on external servers we have included few of the data sets in this repository.
 
