@@ -1,20 +1,19 @@
+# Smartly.io | Junction Hackathlon 2016
+
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Smartly.io challenges | Junction Hackathlon 2016](#smartlyio-challenges--junction-hackathlon-2016)
-  - [Tools of the trade](#tools-of-the-trade)
-    - [Anaconda](#anaconda)
-    - [Pandas](#pandas)
-    - [scikit-learn](#scikit-learn)
-    - [SentiWordNet](#sentiwordnet)
-  - [Data sets](#data-sets)
-    - [Hatebase](#hatebase)
-    - [Trump tweets](#trump-tweets)
+- [Tools of the trade](#tools-of-the-trade)
+  - [Anaconda](#anaconda)
+  - [Pandas](#pandas)
+  - [scikit-learn](#scikit-learn)
+  - [SentiWordNet](#sentiwordnet)
+- [Data sets](#data-sets)
+  - [Hatebase](#hatebase)
+  - [Trump tweets](#trump-tweets)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-# Smartly.io challenges | Junction Hackathlon 2016
 
 ## Tools of the trade
 
