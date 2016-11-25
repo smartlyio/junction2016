@@ -70,12 +70,11 @@ nltk.download('sentiwordnet')
 from nltk.corpus import sentiwordnet as swn
 print(swn.senti_synset('fast.a.01'))
 
-# Example: print all synonyms of 'slow' ordered by negativity.
+# Example: print synonyms of 'slow' ordered by negativity.
 slowSynsets = list(swn.senti_synsets('slow'))
-slowSynsetsWithScore = [(synset.neg_score(), synset) for synset in slowSynsets]
-slowSynsetsWithScore = sorted(slowSynsetsWithScore, key=operator.itemgetter(0), reverse=True)
-for negScore, term in slowSynsetsWithScore:
-    print(negScore, term.synset.lemmas()[0].name(), '-', term.synset.definition())
+slowSynsets = sorted(slowSynsets, key=lambda x: -x.neg_score())
+for term in slowSynsets:
+    print(term.neg_score(), term.synset.lemmas()[0].name(), '-', term.synset.definition())
 ```
 
 Here are some examples on how to classify tweets with `nltk`:
