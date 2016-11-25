@@ -46,8 +46,8 @@ jupyter notebook
 Pandas is a Python module for handling tabular data (rows and columns, think of Excel).
 
 Here are some useful places to start:
-[10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
-[Pandas cheat sheet](http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf)
+- [10 minutes to pandas](http://pandas.pydata.org/pandas-docs/stable/10min.html)
+- [Pandas cheat sheet](http://www.webpages.uidaho.edu/~stevel/504/Pandas%20DataFrame%20Notes.pdf)
 
 ### scikit-learn
 
@@ -78,8 +78,8 @@ for term in slowSynsets:
 ```
 
 Here are some examples on how to classify tweets with `nltk`:
-[NLTK How-to - Sentiment Analysis](http://www.nltk.org/howto/sentiment.html)
-[Twitter sentiment analysis using Python and NLTK](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
+- [NLTK How-to - Sentiment Analysis](http://www.nltk.org/howto/sentiment.html)
+- [Twitter sentiment analysis using Python and NLTK](http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/)
 
 ## Data sets
 
